@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/070e1c2622.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <header>
+        <nav class="itens-header">
+            <ul class="topicos-header">
+                <li><a id="inicio-link" href="index.html">Ínicio</a></li>
+                <li><a id="quem-somos-link" href="index.html">Quem Somos</a></li>
+                <li><a id="contato-link" class="selected" href="#">Contato</a></li>
+                <li><button class="botao-header" onclick="window.location.href='form.html'">Quero fazer parte</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="text">
+        <h1>Fale conosco</h1>
+        <p>Caso tenha dúvidas, queira saber mais sobre o projeto e outras informações. Preencha o nosso formulário e em breve retornaremos.
+        </p>
+    </div>
+
+    <div class="container">
+        <form action="#" method="post">
+            <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <input type="text" id="subject" name="subject" placeholder="Digite o seu assunto" required>
+
+            <textarea id="message" name="message" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </div>
+</body>
+</html>

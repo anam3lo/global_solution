@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    background-color: white;
+    padding: 2vh;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #CBD2D9;
+}
+
+main {
+    padding-top: 70px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FDFBF7;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00A7CA;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00A7CA;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00A7CA;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #00A7CA;
+    border-bottom: 3px solid;
+    border-radius: 2px;
+}
+
+.selected {
+    color: #00A7CA;
+    border-bottom: 3px solid;
+    border-radius: 2px;
+}
+
+.botao-header {
+    background-color: #00A7CA;
+    height: 60px;
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.botao-header:hover {
+    background-color: #046a7f;
+    color: rgb(255, 255, 255);
+    transition: 0.8s ease;
+    transform: scale(1.1);
+}
+
+.text{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    font-size: 2.5vh;
+    align-items: center;
+}
+
+.text h1{
+    color: #00A7CA;
+    border-bottom: 3px solid;
+    border-radius: 2px;
+}
+
+.text p{
+    font-weight: 500;
+    padding-top: 2vh;
+    width: 100vh;
+}
+
+.container {
+    margin: auto;
+    font-size: 2.5vh;
+    padding: 3vh;
+    border-radius: 10px;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 2vh;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0.5vh;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: roboto;
+}
+
+button {
+    padding: 15px;
+    background-color: #00A7CA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #046a7f;
+}
